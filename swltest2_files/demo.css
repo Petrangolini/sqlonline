@@ -1,0 +1,150 @@
+html {
+	background:#222;
+	margin:auto;
+	width:80%;
+}
+
+body{
+	background: linear-gradient(#aaa 0, #ddd 10px, #fff 55px);
+	border: 1px solid black;
+	padding: 10px 20px;
+	box-shadow: 5px 0px 30px #000;
+	border-radius: 8px;
+}
+
+h1 {
+	text-align: center;
+	color: #222;
+	margin: 0 0 30px;
+}
+
+.button {
+	color: #333;
+	background: linear-gradient(#eee, #ddd);
+	border: 1px solid #222;
+	border-radius: 3px;
+	padding: 7px;
+	margin-right: 5px;
+	transition: .3s;
+	font-family: ubuntu, sans-serif;
+	font-size: 1em;
+}
+
+.button:active {
+	background: linear-gradient(#ddd, #eee);
+}
+
+.button:hover, button:focus {
+	box-shadow: 0 0 2px #222;
+}
+
+#execute {
+	margin-top: 5px;;
+	width: 10%;
+	min-width:100px;
+}
+
+.CodeMirror {
+  border: 1px solid #222;
+  height: auto;
+}
+.CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.error {
+	color:red;
+	transition:.5s;
+	overflow:hidden;
+	margin: 15px;
+}
+
+#output {
+	overflow: auto;
+}
+
+table {
+	width:auto;
+	margin:auto;
+	border:1px solid black;
+ 	border-collapse:collapse;
+ 	margin-bottom:10px;
+}
+
+th, td {
+	border:1px solid #777;
+}
+
+footer {
+	font-size:.8em;
+	color: #222;
+}
+#colonne{
+	width:100%;
+	display:flex;
+	justify-content: start;
+	padding:5px;
+	gap:1rem;
+	border:solid;
+
+}
+
+.div_val{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap:10px;
+	align-items:center;
+	padding:5px;
+	
+}
+.div_val> input, select{
+	max-width: 200px;
+
+}
+.div_val_cont{
+	margin:1rem;
+	padding:1rem;
+	border:solid 1px black;
+}
+
+
+.div_val2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap:10px;
+	align-items:center;
+	padding:5px;
+	position: relative;
+
+	
+}
+
+.div_val2> input, select{
+	max-width: 200px;
+
+}
+
+.div_val2> button{
+	width: 30px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: 95%;
+    font-size: 20px;
+    color: red;
+
+}
+.div_val2> button:hover{
+	cursor: pointer;
+	background-color: #ddd;
+
+}
+.num_tot{
+	margin-left:2rem;
+}
+.div_tot{
+	margin-bottom:2rem;
+}
+
+
