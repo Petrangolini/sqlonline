@@ -7,6 +7,6 @@ Esegue il codice SQL.
 ## Save the db
 Scarica il db sul computer.
 ## Fill db
-Permette di popolare id db con dati casuali o specifici.
+Una volta creato i db con execute, permette di popolare il db con dati casuali o specifici. Dal riempimento sono escule le chiavi primaria con **autoincremento** e **le chiavi esterne**
 ## Load and SQLite db file:
 Carica un db SQLite.
